@@ -9,8 +9,8 @@ RUN mkdir -p $APP_DIR
 
 WORKDIR ${APP_DIR}
 
-COPY . $APP_DIR
-
 RUN npm install -g pm2
 
-CMD ["./entrypoint.sh"]
+COPY . .
+
+RUN npm install
