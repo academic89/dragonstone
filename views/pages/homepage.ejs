@@ -1,0 +1,291 @@
+  <header id="home" class="masthead">
+    <div class="masthead-content">
+      <div class="container">
+        <div class="row justify-content-center d-flex align-items-center">
+          <div class="col-sm-8 col-lg-7 text-center mt-0 mt-xl-5">
+            <h1 class=" h2 font-weight-bold text-white">¡Obtén Hasta $12,000 Pesos en Minutos!</h1>
+            <h5 class="font-weight-light text-white mb-3">Comienza ahora mismo y nosotros te enviaremos con el producto perfecto para tí.</h5>
+            <!-- <a href="/step1" class="btn btn-lg btn-warning btn-rounded px-5 font-weight-bold">Quiero un préstamo</a> -->
+            <div class="card-wini">
+              <div class="content p-4">
+                <h1 class="h6 font-weight-bold text-purple">Sin importar tus respuestas, encontraremos un préstamo para ti. Responde honestamente a estas preguntas</h1>
+                <hr>
+                <h2 class="font-weight-bold text-blue h4 mb-0">Datos generales</h2>
+                <p class="small">Ingresa tu número celular a 10 dígitos, tu correo electrónico y haz clic en <span class="badge badge-warning">Siguiente</span></p>
+                
+                <form id="form-lead">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label for="">Teléfono celular</label>
+                        <input type="tel" class="form-control btn-rounded" id="phone" placeholder="10 dígitos" maxlength="10" onkeyup="onlyNumber()" >
+                        <small id="" class="form-text text-warning alert-c" >Campo incorrecto. Tu teléfono debe contener 10 dígitos</small>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <label for="">Correo electrónico</label>
+                        <input type="email" class="form-control btn-rounded" id="email"  placeholder="Correo electrónico">
+                        <small id="" class="form-text text-warning alert-c">Campo incorrecto. Ingresa un correo válido</small>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row justify-content-center">
+                    <div class="col-sm-5 mb-3">
+                      <button id="finish" type="submit" class="btn btn-warning btn-rounded font-weight-bold btn-block"  >Siguiente <i class="fas fa-angle-double-right ml-2"></i></button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- <div class="box-options">
+          <div data-monto="2000" data-plazo="10" data-interes="10.08" class="card mb-3">
+            <div class="card-body">
+              <div class="row d-flex align-items-center">
+                <div class="col-sm-3 text-center box-image">
+                  <img class="w-75" src="images/kueski.png" alt="Kueski">
+                  <p class="mb-0">
+                    <small class="font-weight-bold">¡Sin depósitos, aval o garantías!</small>
+                  </p>
+                </div>
+                <div class="col-sm-2 col-6">
+                  <h5 class="card-title mb-0">Prestan desde:</h6>
+                  <p class="card-text"><strong class="text-success">$2,000 a $6,000</strong></p>
+                </div>
+                <div class="col-sm-2 col-6">
+                  <h5 class="card-title mb-0">Respuesta:</h6>
+                  <p class="card-text"><strong class="text-primary">¡Inmediato!</strong></p>
+                </div>
+                <div class="col-sm-2 col-12">
+                  <h5 class="card-title mb-0">Beneficios:</h6>
+                  <p class="card-text"> 
+                    - Sin depósitos ni papeleos<br>
+                    - ALTA probabilidad de aprobación
+                    - Cobertura en todo México
+                  </p>
+                </div>
+                <div class="col-sm-3 text-center">
+                   <a href="#" 
+                      data-toggle="modal" 
+                      data-target="#modalLender" 
+                      class="btn btn-primary rounded-pill px-4 mt-4 mt-md-0 btn-action">
+                      Quiero este préstamo
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-monto="5000" data-plazo="7" data-interes="40.08" class="card mb-3">
+            <div class="card-body">
+              <div class="row d-flex align-items-center">
+                <div class="col-sm-3 text-center box-image">
+                  <img class="w-75" src="images/banco_azteca.png" alt="Azteca">
+                  <p class="mb-0">
+                    <small class="font-weight-bold">¡Sin depósitos, aval o garantías!</small>
+                  </p>
+                </div>
+                <div class="col-sm-2 col-6">
+                  <h5 class="card-title mb-0">Prestan desde:</h6>
+                  <p class="card-text"><strong class="text-success">$12,000</strong></p>
+                </div>
+                <div class="col-sm-2 col-6">
+                  <h5 class="card-title mb-0">Respuesta:</h6>
+                  <p class="card-text"><strong class="text-primary">24 horas</strong></p>
+                </div>
+                <div class="col-sm-2 col-12">
+                  <h5 class="card-title mb-0">Beneficios:</h6>
+                  <p class="card-text"> 
+                    - Sin depósitos ni papeleos<br>
+                    - ALTA probabilidad de aprobación
+                    - Cobertura en todo México
+                  </p>
+                </div>
+                <div class="col-sm-3 text-center">
+                   <a href="#" data-toggle="modal" data-target="#modalLender" class="btn btn-primary rounded-pill px-4 mt-4 mt-md-0 btn-action">Quiero este préstamo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-monto="3000" data-plazo="15" data-interes="20.08" class="card mb-3">
+            <div class="card-body">
+              <div class="row d-flex align-items-center">
+                <div class="col-sm-3 text-center box-image">
+                  <img class="w-75" src="images/askrobin.png" alt="AskRobin">
+                  <p class="mb-0">
+                    <small class="font-weight-bold">¡Sin depósitos, aval o garantías!</small>
+                  </p>
+                </div>
+                <div class="col-sm-2 col-6">
+                  <h5 class="card-title mb-0">Prestan desde:</h6>
+                  <p class="card-text"><strong class="text-success">$1,000 a $15,000</strong></p>
+                </div>
+                <div class="col-sm-2 col-6">
+                  <h5 class="card-title mb-0">Respuesta:</h6>
+                  <p class="card-text"><strong class="text-primary">24 horas</strong></p>
+                </div>
+                <div class="col-sm-2 col-12">
+                  <h5 class="card-title mb-0">Beneficios:</h6>
+                  <p class="card-text"> 
+                    - Sin depósitos ni papeleos<br>
+                    - ALTA probabilidad de aprobación
+                    - Cobertura en todo México
+                  </p>
+                </div>
+                <div class="col-sm-3 text-center">
+                   <a href="#" data-toggle="modal" data-target="#modalLender" class="btn btn-primary rounded-pill px-4 mt-4 mt-md-0 btn-action">Quiero este préstamo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-monto="10000" data-plazo="30" data-interes="30.08" class="card mb-3">
+            <div class="card-body">
+              <div class="row d-flex align-items-center">
+                <div class="col-sm-3 text-center box-image">
+                  <img class="w-75" src="images/coru.png" alt="Coru">
+                  <p class="mb-0">
+                    <small class="font-weight-bold">¡Tarjetas de crédito!</small>
+                  </p>
+                </div>
+                <div class="col-sm-4 col-12">
+                  <h5 class="card-title mb-0">En Coru:</h6>
+                  <p class="card-text">te ofrecemos opciones para que seas tú quien elija la <strong class="text-success">tarjeta de crédito</strong> que quiere.</p>
+                </div>
+                <div class="col-sm-2 col-12">
+                  <h5 class="card-title mb-0">Beneficios:</h6>
+                  <p class="card-text"><strong class="text-danger">Fácil, rápido y seguro.</strong></p>
+                </div>
+                <div class="col-sm-3 text-center">
+                   <a href="#" data-toggle="modal" data-target="#modalLender" class="btn btn-primary rounded-pill px-4 mt-4 mt-md-0 btn-action">Quiero una tarjeta</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <div class="bg-circle-1 bg-circle"></div>
+    <div class="bg-circle-2 bg-circle"></div>
+    <div class="bg-circle-3 bg-circle"></div>
+    <div class="bg-circle-4 bg-circle"></div>
+  </header>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col mb-5 text-center">
+          <h2 class="masthead-subheading mb-0">Cómo funciona</h2>
+          <h5 class="font-weight-bold text-purple">¡Obtener tu préstamo es súper sencillo!</h5>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-sm-6 col-lg-4">
+          <div class="row row-steps">
+            <div class="col-4 col-sm-12 text-center">
+              <img class="max60 mb-3" src="images/1.png" alt="paso 1">
+            </div>
+            <div class="col-8 col-sm-12">
+              <h3 class="font-weight-bold text-uppercase h5 text-purple">Paso 1</h3>
+              <p>Ordena las ofertas por la categoría que más te interese.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="row row-steps">
+            <div class="col-4 col-sm-12 text-center">
+              <img class="max60 mb-3" src="images/2.png" alt="paso 2">
+            </div>
+            <div class="col-8 col-sm-12">
+              <h3 class="font-weight-bold text-uppercase h5 text-purple">Paso 2</h3>
+              <p>Elige la oferta que más se adecue a tus necesidades</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="row row-steps">
+            <div class="col-4 col-sm-12 text-center">
+              <img class="max60 mb-3" src="images/3.png" alt="paso 3">
+            </div>
+            <div class="col-8 col-sm-12">
+              <h3 class="font-weight-bold text-uppercase h5 text-purple">Paso 3</h3>
+              <p>Solicita tu préstamo y ¡disfruta tu tu dinero!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col col-sm-5 col-lg-3 text-center">
+          <a href="#home"  class="btn btn-warning btn-rounded btn-lg px-4 font-weight-bold">Quiero un préstamo hoy</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Modal -->
+<!-- <div class="modal fade" id="modalLender" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalLender">Estás a un paso de obtener tu préstamo</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body p-md-5">
+        <form id="form-lead">
+          <p class="card-text">Solo completa la siguiente información y te pondremos en contacto con este préstamista</p>
+          <fieldset>
+            <input id="2000" class="radio-inline__input" type="radio" name="accessible-radio" value="2000" checked="checked"/>
+            <label class="radio-inline__label" for="2000">
+                $2,000
+            </label>
+            <input id="10000" class="radio-inline__input" type="radio" name="accessible-radio" value="10000"/>
+            <label class="radio-inline__label" for="10000">
+                $10,000
+            </label>
+            <input id="+10000" class="radio-inline__input" type="radio" name="accessible-radio" value="+10000"/>
+            <label class="radio-inline__label" for="+10000">
+                más de $10,000
+            </label>
+          </fieldset>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="">Teléfono celular</label>
+                <input type="tel" class="form-control btn-rounded" id="phone" placeholder="10 dígitos" maxlength="10" onkeyup="onlyNumber()" >
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label for="">Correo electrónico</label>
+                <input type="email" class="form-control btn-rounded" id="email"  placeholder="Correo electrónico">
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <p class="small font-weight-bold text-info">Al usar este sitio, aceptas nuestra política de privacidad, así como nuestros términos y condiciones.</p>
+            </div>
+            <div class="col-sm-12">
+              <hr>
+              <label class="control control--checkbox">Acepto los términos y condiciones del servicio
+                <input id="terms" type="checkbox" class="check-m" value="true" />
+                <div class="control__indicator"></div>
+              </label>
+            </div>
+            <div class="col-sm-12">
+              <label class="control control--checkbox">Acepto el Aviso de privacidad
+                <input id="privacy" type="checkbox" class="check-m" value="true" />
+                <div class="control__indicator"></div>
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block rounded-pill my-3">Quiero este préstamo</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div> -->
+
