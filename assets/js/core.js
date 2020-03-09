@@ -139,7 +139,11 @@ var createLead = function(){
                     } else {
                       console.log('este teléfono ya se encuentra registrado')  
                     };
-                    document.getElementById("form-lead").reset();  
+                    document.getElementById("form-lead").reset(); 
+                    
+                    setTimeout(function(){
+                      window.location.pathname = '/step2';
+                    }, 800);  
 
                 }
             }); 
