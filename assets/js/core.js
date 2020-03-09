@@ -116,8 +116,8 @@ var createLead = function(){
         } else {
 
             $.ajax({ 
-                //url:'https://prestamagico.com/create/?',
-                url:'http://localhost:1337/create/?',  
+                url:'https://kooik.mx/create/?',
+                //url:'http://localhost:1337/create/?',  
                 type: 'POST', 
                 contentType: 'application/json', 
                 data: JSON.stringify({ 
